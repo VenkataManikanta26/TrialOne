@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230210 18:09:14.704" rpa="false" schemaversion="3">
+<suite id="s1" name="TC1" source="C:\Users\user\PycharmProjects\pythonProject2\TrialOne\New\TC1.robot">
+<test id="s1-t1" name="TC1" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.youtube.com/watch?v=-_g3QITLaQA&amp;t=125s</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230210 18:09:15.003" level="INFO">Opening browser 'chrome' to base url 'https://www.youtube.com/watch?v=-_g3QITLaQA&amp;t=125s'.</msg>
+<status status="PASS" starttime="20230210 18:09:15.002" endtime="20230210 18:09:26.704"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230210 18:09:29.709" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230210 18:09:26.708" endtime="20230210 18:09:29.709"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230210 18:09:29.709" endtime="20230210 18:09:33.383"/>
+</kw>
+<status status="PASS" starttime="20230210 18:09:15.001" endtime="20230210 18:09:33.384"/>
+</test>
+<status status="PASS" starttime="20230210 18:09:14.706" endtime="20230210 18:09:33.386"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
